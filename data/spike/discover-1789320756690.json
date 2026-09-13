@@ -1,0 +1,1015 @@
+{
+  "generatedAt": "2026-09-13T17:29:00.121Z",
+  "base": "https://lite-api.jup.ag",
+  "tickers": {
+    "NVDA": [
+      {
+        "ticker": "NVDA",
+        "symbol": "NVDAx",
+        "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 216.08833443906815,
+            "exitPrice": 215.8723537166196,
+            "impactPct": 0.0003671536419802159,
+            "tokens": 4.62773709,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": false,
+            "error": "Riptide market orcale is stale 446760028 446760029"
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 216.81147183555962,
+            "exitPrice": null,
+            "impactPct": 0.0037035171940948443,
+            "tokens": 461.23020684,
+            "meaningful": true
+          }
+        }
+      },
+      {
+        "ticker": "NVDA",
+        "symbol": "NVDAon",
+        "mint": "gEGtLTPNQ7jcg25zTetkbmF7teoDLcrfTnQfmn2ondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": false,
+            "error": "No routes found"
+          },
+          "10000": {
+            "routable": false,
+            "error": "No routes found"
+          },
+          "100000": {
+            "routable": false,
+            "error": "No routes found"
+          }
+        }
+      }
+    ],
+    "TSLA": [
+      {
+        "ticker": "TSLA",
+        "symbol": "TSLAx",
+        "mint": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 363.19795464926557,
+            "exitPrice": 362.83493684080184,
+            "impactPct": 0.0031746942862141934,
+            "tokens": 2.75331947,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 363.1979535939636,
+            "exitPrice": null,
+            "impactPct": 0.003174691389854896,
+            "tokens": 27.53319478,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 363.73372000866055,
+            "exitPrice": null,
+            "impactPct": 0.004642978469921391,
+            "tokens": 274.92639395,
+            "meaningful": true
+          }
+        }
+      },
+      {
+        "ticker": "TSLA",
+        "symbol": "TSLAon",
+        "mint": "KeGv7bsfR4MheC1CkmnAVceoApjrkvBhHYjWb67ondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": false,
+            "error": "No routes found"
+          },
+          "10000": {
+            "routable": false,
+            "error": "No routes found"
+          },
+          "100000": {
+            "routable": false,
+            "error": "No routes found"
+          }
+        }
+      }
+    ],
+    "AAPL": [
+      {
+        "ticker": "AAPL",
+        "symbol": "AAPLx",
+        "mint": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 332.6407995822617,
+            "exitPrice": 331.6077020821631,
+            "impactPct": 0.0026059116851916506,
+            "tokens": 3.00624578,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 333.0202288242602,
+            "exitPrice": null,
+            "impactPct": 0.0037423005593425185,
+            "tokens": 30.0282059,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 334.82618246420975,
+            "exitPrice": null,
+            "impactPct": 0.009115820650845426,
+            "tokens": 298.66242617,
+            "meaningful": true
+          }
+        }
+      },
+      {
+        "ticker": "AAPL",
+        "symbol": "AAPLon",
+        "mint": "123mYEnRLM2LLYsJW3K6oyYh8uP1fngj732iG638ondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 396.19847515544535,
+            "exitPrice": 233.21763095116245,
+            "impactPct": 0.1624978549227958,
+            "tokens": 2.523987503,
+            "meaningful": false
+          },
+          "10000": {
+            "routable": false,
+            "error": "No routes found"
+          },
+          "100000": {
+            "routable": false,
+            "error": "No routes found"
+          }
+        }
+      }
+    ],
+    "MSFT": [
+      {
+        "ticker": "MSFT",
+        "symbol": "MSFTx",
+        "mint": "XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 495.06263881525445,
+            "exitPrice": 494.01737841153914,
+            "impactPct": 0.00005743470642783919,
+            "tokens": 2.01994641,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 495.92799646810795,
+            "exitPrice": null,
+            "impactPct": 0.0018022604824542172,
+            "tokens": 20.16421753,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 504.63423329092643,
+            "exitPrice": null,
+            "impactPct": 0.01902164859438083,
+            "tokens": 198.1633298,
+            "meaningful": true
+          }
+        }
+      },
+      {
+        "ticker": "MSFT",
+        "symbol": "MSFTon",
+        "mint": "FRmH6iRkMr33DLG6zVLR7EM4LojBFAuq6NtFzG6ondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": false,
+            "error": "The token FRmH6iRkMr33DLG6zVLR7EM4LojBFAuq6NtFzG6ondo is not tradable"
+          },
+          "10000": {
+            "routable": false,
+            "error": "The token FRmH6iRkMr33DLG6zVLR7EM4LojBFAuq6NtFzG6ondo is not tradable"
+          },
+          "100000": {
+            "routable": false,
+            "error": "The token FRmH6iRkMr33DLG6zVLR7EM4LojBFAuq6NtFzG6ondo is not tradable"
+          }
+        }
+      },
+      {
+        "ticker": "MSFT",
+        "symbol": "MSFT",
+        "mint": "MSFTbG48fCKLAjswgojAPCAMvYwzXdoUCFNaKN5AGbe",
+        "decimals": 6,
+        "issuer": "backpack_securities",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": false,
+            "error": "The token MSFTbG48fCKLAjswgojAPCAMvYwzXdoUCFNaKN5AGbe is not tradable"
+          },
+          "10000": {
+            "routable": false,
+            "error": "The token MSFTbG48fCKLAjswgojAPCAMvYwzXdoUCFNaKN5AGbe is not tradable"
+          },
+          "100000": {
+            "routable": false,
+            "error": "The token MSFTbG48fCKLAjswgojAPCAMvYwzXdoUCFNaKN5AGbe is not tradable"
+          }
+        }
+      }
+    ],
+    "META": [
+      {
+        "ticker": "META",
+        "symbol": "META",
+        "mint": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+        "decimals": 6,
+        "issuer": "backpack_securities",
+        "tokenProgram": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 4.886532468281566,
+            "exitPrice": 4.8305914739038744,
+            "impactPct": 0.0008974166732821097,
+            "tokens": 204.644092,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 4.917691875554674,
+            "exitPrice": null,
+            "impactPct": 0.007227915836160038,
+            "tokens": 2033.474291,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 5.169417836051509,
+            "exitPrice": null,
+            "impactPct": 0.055571175051490035,
+            "tokens": 19344.538045,
+            "meaningful": false
+          }
+        }
+      },
+      {
+        "ticker": "META",
+        "symbol": "METAx",
+        "mint": "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 645.4327301803196,
+            "exitPrice": 643.157333251131,
+            "impactPct": 0.0001959600780052121,
+            "tokens": 1.54934814,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 646.0868318011371,
+            "exitPrice": null,
+            "impactPct": 0.001208166813731092,
+            "tokens": 15.47779572,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 658.1294769485136,
+            "exitPrice": null,
+            "impactPct": 0.019484351127689117,
+            "tokens": 151.94578499,
+            "meaningful": true
+          }
+        }
+      },
+      {
+        "ticker": "META",
+        "symbol": "METAon",
+        "mint": "fDxs5y12E7x7jBwCKBXGqt71uJmCWsAQ3Srkte6ondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": false,
+            "error": "The token fDxs5y12E7x7jBwCKBXGqt71uJmCWsAQ3Srkte6ondo is not tradable"
+          },
+          "10000": {
+            "routable": false,
+            "error": "The token fDxs5y12E7x7jBwCKBXGqt71uJmCWsAQ3Srkte6ondo is not tradable"
+          },
+          "100000": {
+            "routable": false,
+            "error": "The token fDxs5y12E7x7jBwCKBXGqt71uJmCWsAQ3Srkte6ondo is not tradable"
+          }
+        }
+      },
+      {
+        "ticker": "META",
+        "symbol": "META",
+        "mint": "METADDFL6wWMWEoKTFJwcThTbUmtarRJZjRpzUvkxhr",
+        "decimals": 9,
+        "issuer": "backpack_securities",
+        "tokenProgram": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 4890.197390519275,
+            "exitPrice": 4826.963084286224,
+            "impactPct": 0.0010943453495765637,
+            "tokens": 0.204490723,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 4921.380145076066,
+            "exitPrice": null,
+            "impactPct": 0.007423592214507146,
+            "tokens": 2.031950328,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 5173.296597972159,
+            "exitPrice": null,
+            "impactPct": 0.055757632829089604,
+            "tokens": 19.330034168,
+            "meaningful": false
+          }
+        }
+      }
+    ],
+    "GOOGL": [
+      {
+        "ticker": "GOOGL",
+        "symbol": "GOOGLx",
+        "mint": "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 338.1162034251523,
+            "exitPrice": 337.2519888907999,
+            "impactPct": 0.0022769160002755677,
+            "tokens": 2.95756308,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 338.7264819569979,
+            "exitPrice": null,
+            "impactPct": 0.0040744990394697015,
+            "tokens": 29.52234482,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 341.2571194034966,
+            "exitPrice": null,
+            "impactPct": 0.011459916729975607,
+            "tokens": 293.03417955,
+            "meaningful": true
+          }
+        }
+      },
+      {
+        "ticker": "GOOGL",
+        "symbol": "GOOGLon",
+        "mint": "bbahNA5vT9WJeYft8tALrH1LXWffjwqVoUbqYa1ondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": false,
+            "error": "The token bbahNA5vT9WJeYft8tALrH1LXWffjwqVoUbqYa1ondo is not tradable"
+          },
+          "10000": {
+            "routable": false,
+            "error": "The token bbahNA5vT9WJeYft8tALrH1LXWffjwqVoUbqYa1ondo is not tradable"
+          },
+          "100000": {
+            "routable": false,
+            "error": "The token bbahNA5vT9WJeYft8tALrH1LXWffjwqVoUbqYa1ondo is not tradable"
+          }
+        }
+      }
+    ],
+    "AMZN": [
+      {
+        "ticker": "AMZN",
+        "symbol": "AMZNx",
+        "mint": "Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 254.65670081589255,
+            "exitPrice": 253.45390552262884,
+            "impactPct": 0.0003835063102437567,
+            "tokens": 3.92685524,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 255.06959524805447,
+            "exitPrice": null,
+            "impactPct": 0.0020016375663047194,
+            "tokens": 39.20498635,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 258.0535400897473,
+            "exitPrice": null,
+            "impactPct": 0.013541770147187666,
+            "tokens": 387.51648191,
+            "meaningful": true
+          }
+        }
+      },
+      {
+        "ticker": "AMZN",
+        "symbol": "AMZNon",
+        "mint": "14Tqdo8V1FhzKsE3W2pFsZCzYPQxxupXRcqw9jv6ondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": false,
+            "error": "The token 14Tqdo8V1FhzKsE3W2pFsZCzYPQxxupXRcqw9jv6ondo is not tradable"
+          },
+          "10000": {
+            "routable": false,
+            "error": "The token 14Tqdo8V1FhzKsE3W2pFsZCzYPQxxupXRcqw9jv6ondo is not tradable"
+          },
+          "100000": {
+            "routable": false,
+            "error": "The token 14Tqdo8V1FhzKsE3W2pFsZCzYPQxxupXRcqw9jv6ondo is not tradable"
+          }
+        }
+      },
+      {
+        "ticker": "AMZN",
+        "symbol": "AMZN",
+        "mint": "AMZN6U5X5V7amsfEYbV4h5xW2PBLxFjwmQf7wvCDbTm8",
+        "decimals": 6,
+        "issuer": "backpack_securities",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": false,
+            "error": "The token AMZN6U5X5V7amsfEYbV4h5xW2PBLxFjwmQf7wvCDbTm8 is not tradable"
+          },
+          "10000": {
+            "routable": false,
+            "error": "The token AMZN6U5X5V7amsfEYbV4h5xW2PBLxFjwmQf7wvCDbTm8 is not tradable"
+          },
+          "100000": {
+            "routable": false,
+            "error": "The token AMZN6U5X5V7amsfEYbV4h5xW2PBLxFjwmQf7wvCDbTm8 is not tradable"
+          }
+        }
+      }
+    ],
+    "SPY": [
+      {
+        "ticker": "SPY",
+        "symbol": "SPYx",
+        "mint": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 766.0944727478898,
+            "exitPrice": 765.9238114143848,
+            "impactPct": 0,
+            "tokens": 1.30532204,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 766.2305898198806,
+            "exitPrice": null,
+            "impactPct": 0.00019114479113378159,
+            "tokens": 13.05090156,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 766.7057077889979,
+            "exitPrice": null,
+            "impactPct": 0.0008107138747682961,
+            "tokens": 130.42814079,
+            "meaningful": true
+          }
+        }
+      },
+      {
+        "ticker": "SPY",
+        "symbol": "SPYon",
+        "mint": "k18WJUULWheRkSpSquYGdNNmtuE2Vbw1hpuUi92ondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 769.8478336555481,
+            "exitPrice": 766.8848402339834,
+            "impactPct": 0.0005233377189558119,
+            "tokens": 1.298957997,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 769.9183085308176,
+            "exitPrice": null,
+            "impactPct": 0.0006148253382637562,
+            "tokens": 12.988390962,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 5007.30744541614,
+            "exitPrice": null,
+            "impactPct": 0.8463355902081235,
+            "tokens": 19.970812875,
+            "meaningful": false
+          }
+        }
+      }
+    ],
+    "QQQ": [
+      {
+        "ticker": "QQQ",
+        "symbol": "QQQx",
+        "mint": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 711.024134846808,
+            "exitPrice": 710.7191829945893,
+            "impactPct": 0.0003220333535510428,
+            "tokens": 1.40642202,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 711.1432201440851,
+            "exitPrice": null,
+            "impactPct": 0.0004894355651836307,
+            "tokens": 14.06186506,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 713.6122196120306,
+            "exitPrice": null,
+            "impactPct": 0.003947603718662022,
+            "tokens": 140.13212954,
+            "meaningful": true
+          }
+        }
+      },
+      {
+        "ticker": "QQQ",
+        "symbol": "QQQon",
+        "mint": "HrYNm6jTQ71LoFphjVKBTdAE4uja7WsmLG8VxB8ondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 3267.8797818529465,
+            "exitPrice": 661.5629061841811,
+            "impactPct": 0.7845108513040392,
+            "tokens": 0.306008809,
+            "meaningful": false
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 24129.44701274659,
+            "exitPrice": null,
+            "impactPct": 0.9708160476342356,
+            "tokens": 0.414431379,
+            "meaningful": false
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 234203.70871362463,
+            "exitPrice": null,
+            "impactPct": 0.9969932473055185,
+            "tokens": 0.426978721,
+            "meaningful": false
+          }
+        }
+      }
+    ],
+    "COIN": [
+      {
+        "ticker": "COIN",
+        "symbol": "COINx",
+        "mint": "Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 174.4057138381394,
+            "exitPrice": 173.1621677869821,
+            "impactPct": 0.0036584675879195675,
+            "tokens": 5.7337571,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 175.19827351548142,
+            "exitPrice": null,
+            "impactPct": 0.008165704489321989,
+            "tokens": 57.07818804,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 177.44344374639627,
+            "exitPrice": null,
+            "impactPct": 0.020715262744421956,
+            "tokens": 563.55984695,
+            "meaningful": false
+          }
+        }
+      },
+      {
+        "ticker": "COIN",
+        "symbol": "COINon",
+        "mint": "5u6KDiNJXxX4rGMfYT4BApZQC5CuDNrG6MHkwp1ondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": false,
+            "error": "The token 5u6KDiNJXxX4rGMfYT4BApZQC5CuDNrG6MHkwp1ondo is not tradable"
+          },
+          "10000": {
+            "routable": false,
+            "error": "The token 5u6KDiNJXxX4rGMfYT4BApZQC5CuDNrG6MHkwp1ondo is not tradable"
+          },
+          "100000": {
+            "routable": false,
+            "error": "The token 5u6KDiNJXxX4rGMfYT4BApZQC5CuDNrG6MHkwp1ondo is not tradable"
+          }
+        }
+      }
+    ],
+    "MSTR": [
+      {
+        "ticker": "MSTR",
+        "symbol": "MSTR",
+        "mint": "MSTRdWXMeZxdE8osAQy3fA4rvTY5rgummDSMEx6U7Nz",
+        "decimals": 6,
+        "issuer": "backpack_securities",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 130.70004118358298,
+            "exitPrice": 130.43829147860566,
+            "impactPct": 0.006834087566984746,
+            "tokens": 7.651107,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 130.84614525358813,
+            "exitPrice": null,
+            "impactPct": 0.007943066220621268,
+            "tokens": 76.425637,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 139.74779025937806,
+            "exitPrice": null,
+            "impactPct": 0.07113503965823957,
+            "tokens": 715.574821,
+            "meaningful": false
+          }
+        }
+      },
+      {
+        "ticker": "MSTR",
+        "symbol": "MSTRx",
+        "mint": "XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 130.64356317818593,
+            "exitPrice": 130.5129846755022,
+            "impactPct": 0,
+            "tokens": 7.65441462,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 130.6758996141702,
+            "exitPrice": null,
+            "impactPct": 0,
+            "tokens": 76.52520495,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 131.4215989803754,
+            "exitPrice": null,
+            "impactPct": 0.005395065079917073,
+            "tokens": 760.90993243,
+            "meaningful": true
+          }
+        }
+      },
+      {
+        "ticker": "MSTR",
+        "symbol": "MSTRon",
+        "mint": "FSz4ouiqXpHuGPcpacZfTzbMjScoj5FfzHkiyu2ondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": false,
+            "error": "No routes found"
+          },
+          "10000": {
+            "routable": false,
+            "error": "No routes found"
+          },
+          "100000": {
+            "routable": false,
+            "error": "No routes found"
+          }
+        }
+      }
+    ],
+    "AMD": [
+      {
+        "ticker": "AMD",
+        "symbol": "AMDx",
+        "mint": "XsXcJ6GZ9kVnjqGsjBnktRcuwMBmvKWh8S93RefZ1rF",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 571.8671902957158,
+            "exitPrice": 459.93790002681834,
+            "impactPct": 0.13227087792785525,
+            "tokens": 1.74865776,
+            "meaningful": false
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 632.9446376218555,
+            "exitPrice": null,
+            "impactPct": 0.21600439362023757,
+            "tokens": 15.79917011,
+            "meaningful": false
+          },
+          "100000": {
+            "routable": false,
+            "error": "No routes found"
+          }
+        }
+      },
+      {
+        "ticker": "AMD",
+        "symbol": "AMDon",
+        "mint": "14diAn5z8kjrKwSC8WLqvBqqe5YmihJhjxRxd8Z6ondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": false,
+            "error": "The token 14diAn5z8kjrKwSC8WLqvBqqe5YmihJhjxRxd8Z6ondo is not tradable"
+          },
+          "10000": {
+            "routable": false,
+            "error": "The token 14diAn5z8kjrKwSC8WLqvBqqe5YmihJhjxRxd8Z6ondo is not tradable"
+          },
+          "100000": {
+            "routable": false,
+            "error": "The token 14diAn5z8kjrKwSC8WLqvBqqe5YmihJhjxRxd8Z6ondo is not tradable"
+          }
+        }
+      }
+    ],
+    "SPCX": [
+      {
+        "ticker": "SPCX",
+        "symbol": "SPCX",
+        "mint": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+        "decimals": 6,
+        "issuer": "backpack_securities",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 149.33470641618058,
+            "exitPrice": 149.26000232663472,
+            "impactPct": 0.007303279276083909,
+            "tokens": 6.696367,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": false,
+            "error": "request failed: rate limited after retries"
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 149.63515358312748,
+            "exitPrice": null,
+            "impactPct": 0.0025081186161710223,
+            "tokens": 668.29216,
+            "meaningful": true
+          }
+        }
+      },
+      {
+        "ticker": "SPCX",
+        "symbol": "SPCXon",
+        "mint": "wzAyQTorWyoVXuJKj2x8EqKEGJpS13z6EWE9z5Aondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": false,
+            "error": "The token wzAyQTorWyoVXuJKj2x8EqKEGJpS13z6EWE9z5Aondo is not tradable"
+          },
+          "10000": {
+            "routable": false,
+            "error": "The token wzAyQTorWyoVXuJKj2x8EqKEGJpS13z6EWE9z5Aondo is not tradable"
+          },
+          "100000": {
+            "routable": false,
+            "error": "The token wzAyQTorWyoVXuJKj2x8EqKEGJpS13z6EWE9z5Aondo is not tradable"
+          }
+        }
+      },
+      {
+        "ticker": "SPCX",
+        "symbol": "SPCXx",
+        "mint": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 149.3625656028207,
+            "exitPrice": 149.15847928170717,
+            "impactPct": 0.0028570749631883666,
+            "tokens": 6.69511799,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 149.409579695366,
+            "exitPrice": null,
+            "impactPct": 0.0031708417902832505,
+            "tokens": 66.93011265,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 150.0966292755385,
+            "exitPrice": null,
+            "impactPct": 0.007733709443989332,
+            "tokens": 666.2374797,
+            "meaningful": true
+          }
+        }
+      }
+    ],
+    "CRCL": [
+      {
+        "ticker": "CRCL",
+        "symbol": "CRCLx",
+        "mint": "XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1",
+        "decimals": 8,
+        "issuer": "backed_xstocks",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": true,
+            "entryPrice": 90.72078754352783,
+            "exitPrice": 90.64447085830575,
+            "impactPct": 0.0006236647493067451,
+            "tokens": 11.022832,
+            "meaningful": true
+          },
+          "10000": {
+            "routable": true,
+            "entryPrice": 90.73700798372693,
+            "exitPrice": null,
+            "impactPct": 0.000802316486261076,
+            "tokens": 110.20861523,
+            "meaningful": true
+          },
+          "100000": {
+            "routable": true,
+            "entryPrice": 90.99307731761587,
+            "exitPrice": null,
+            "impactPct": 0.0036142214441254213,
+            "tokens": 1098.98470244,
+            "meaningful": true
+          }
+        }
+      },
+      {
+        "ticker": "CRCL",
+        "symbol": "CRCLon",
+        "mint": "6xHEyem9hmkGtVq6XGCiQUGpPsHBaoYuYdFNZa5ondo",
+        "decimals": 9,
+        "issuer": "ondo_gm",
+        "tokenProgram": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+        "sizes": {
+          "1000": {
+            "routable": false,
+            "error": "No routes found"
+          },
+          "10000": {
+            "routable": false,
+            "error": "No routes found"
+          },
+          "100000": {
+            "routable": false,
+            "error": "No routes found"
+          }
+        }
+      }
+    ],
+    "SECZ": []
+  }
+}

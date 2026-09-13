@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "note": "Mint addresses verified on Solana mainnet. All legitimate issuers use Token-2022 (TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb).",
+  "issuers": {
+    "backed_xstocks": {
+      "name": "Backed Finance (xStocks)",
+      "instrumentClass": "spv_note",
+      "source": "https://xstocks.com/"
+    },
+    "ondo_gm": {
+      "name": "Ondo Global Markets",
+      "instrumentClass": "total_return_tracker",
+      "source": "https://ondo.finance/"
+    },
+    "backpack_securities": {
+      "name": "Backpack Securities",
+      "instrumentClass": "redeemable_share",
+      "source": "https://backpack.exchange/"
+    }
+  },
+  "wrappers": [
+    { "ticker": "AAPL", "symbol": "AAPLon", "mint": "123mYEnRLM2LLYsJW3K6oyYh8uP1fngj732iG638ondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "AAPL", "symbol": "AAPLx", "mint": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp", "decimals": 8, "issuer": "backed_xstocks" },
+    { "ticker": "AMD", "symbol": "AMDon", "mint": "14diAn5z8kjrKwSC8WLqvBqqe5YmihJhjxRxd8Z6ondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "AMD", "symbol": "AMDx", "mint": "XsXcJ6GZ9kVnjqGsjBnktRcuwMBmvKWh8S93RefZ1rF", "decimals": 8, "issuer": "backed_xstocks" },
+    { "ticker": "AMZN", "symbol": "AMZN", "mint": "AMZN6U5X5V7amsfEYbV4h5xW2PBLxFjwmQf7wvCDbTm8", "decimals": 6, "issuer": "backpack_securities" },
+    { "ticker": "AMZN", "symbol": "AMZNon", "mint": "14Tqdo8V1FhzKsE3W2pFsZCzYPQxxupXRcqw9jv6ondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "AMZN", "symbol": "AMZNx", "mint": "Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg", "decimals": 8, "issuer": "backed_xstocks" },
+    { "ticker": "COIN", "symbol": "COINon", "mint": "5u6KDiNJXxX4rGMfYT4BApZQC5CuDNrG6MHkwp1ondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "COIN", "symbol": "COINx", "mint": "Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu", "decimals": 8, "issuer": "backed_xstocks" },
+    { "ticker": "CRCL", "symbol": "CRCLon", "mint": "6xHEyem9hmkGtVq6XGCiQUGpPsHBaoYuYdFNZa5ondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "CRCL", "symbol": "CRCLx", "mint": "XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1", "decimals": 8, "issuer": "backed_xstocks" },
+    { "ticker": "GOOGL", "symbol": "GOOGLon", "mint": "bbahNA5vT9WJeYft8tALrH1LXWffjwqVoUbqYa1ondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "GOOGL", "symbol": "GOOGLx", "mint": "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN", "decimals": 8, "issuer": "backed_xstocks" },
+    { "ticker": "META", "symbol": "METAon", "mint": "fDxs5y12E7x7jBwCKBXGqt71uJmCWsAQ3Srkte6ondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "META", "symbol": "METAx", "mint": "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu", "decimals": 8, "issuer": "backed_xstocks" },
+    { "ticker": "MSFT", "symbol": "MSFT", "mint": "MSFTbG48fCKLAjswgojAPCAMvYwzXdoUCFNaKN5AGbe", "decimals": 6, "issuer": "backpack_securities" },
+    { "ticker": "MSFT", "symbol": "MSFTon", "mint": "FRmH6iRkMr33DLG6zVLR7EM4LojBFAuq6NtFzG6ondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "MSFT", "symbol": "MSFTx", "mint": "XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX", "decimals": 8, "issuer": "backed_xstocks" },
+    { "ticker": "MSTR", "symbol": "MSTR", "mint": "MSTRdWXMeZxdE8osAQy3fA4rvTY5rgummDSMEx6U7Nz", "decimals": 6, "issuer": "backpack_securities" },
+    { "ticker": "MSTR", "symbol": "MSTRon", "mint": "FSz4ouiqXpHuGPcpacZfTzbMjScoj5FfzHkiyu2ondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "MSTR", "symbol": "MSTRx", "mint": "XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ", "decimals": 8, "issuer": "backed_xstocks" },
+    { "ticker": "NVDA", "symbol": "NVDAon", "mint": "gEGtLTPNQ7jcg25zTetkbmF7teoDLcrfTnQfmn2ondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "NVDA", "symbol": "NVDAx", "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh", "decimals": 8, "issuer": "backed_xstocks" },
+    { "ticker": "QQQ", "symbol": "QQQon", "mint": "HrYNm6jTQ71LoFphjVKBTdAE4uja7WsmLG8VxB8ondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "QQQ", "symbol": "QQQx", "mint": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ", "decimals": 8, "issuer": "backed_xstocks" },
+    { "ticker": "SPCX", "symbol": "SPCX", "mint": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb", "decimals": 6, "issuer": "backpack_securities" },
+    { "ticker": "SPCX", "symbol": "SPCXon", "mint": "wzAyQTorWyoVXuJKj2x8EqKEGJpS13z6EWE9z5Aondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "SPCX", "symbol": "SPCXx", "mint": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8", "decimals": 8, "issuer": "backed_xstocks" },
+    { "ticker": "SPY", "symbol": "SPYon", "mint": "k18WJUULWheRkSpSquYGdNNmtuE2Vbw1hpuUi92ondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "SPY", "symbol": "SPYx", "mint": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W", "decimals": 8, "issuer": "backed_xstocks" },
+    { "ticker": "TSLA", "symbol": "TSLAon", "mint": "KeGv7bsfR4MheC1CkmnAVceoApjrkvBhHYjWb67ondo", "decimals": 9, "issuer": "ondo_gm" },
+    { "ticker": "TSLA", "symbol": "TSLAx", "mint": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB", "decimals": 8, "issuer": "backed_xstocks" }
+  ],
+  "impostors": [
+    {
+      "mint": "METADDFL6wWMWEoKTFJwcThTbUmtarRJZjRpzUvkxhr",
+      "claimedSymbol": "META",
+      "reason": "Uses the legacy SPL Token program, not Token-2022. No legitimate tokenized-equity issuer on Solana uses the legacy program. Vanity address mimics a Backpack Securities mint."
+    },
+    {
+      "mint": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+      "claimedSymbol": "META",
+      "reason": "Uses the legacy SPL Token program, not Token-2022. Vanity address ends in 'meta' to mimic an official mint."
+    }
+  ]
+}
