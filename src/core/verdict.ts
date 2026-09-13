@@ -13,11 +13,11 @@ export interface WrapperMeasurement {
   symbol: string;
   issuerName: string;
   /** Undefined when no size could be routed. */
-  bestTier?: LiquidityTier;
+  bestTier?: LiquidityTier | undefined;
   /** Largest probed size that stayed within the usable impact budget. */
   maxSafeSizeUsd: number;
   /** Cost in USD of a reference $1,000 order, when routable. */
-  referenceCostUsd?: number;
+  referenceCostUsd?: number | undefined;
   routable: boolean;
   custody: CustodyReport;
 }
