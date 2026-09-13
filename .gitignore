@@ -10,3 +10,5 @@ coverage/
 .DS_Store
 test-ledger/
 target/
+next-env.d.ts
+tsconfig.tsbuildinfo

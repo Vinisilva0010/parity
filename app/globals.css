@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brief-specified palette. Severity is carried by weight, not by hue. */
+  --color-paper: #fdf9eb;
+  --color-ink: #000000;
+  --color-signal: #037209;
+  --color-rule: rgba(0, 0, 0, 0.14);
+
+  --font-display: var(--font-archivo), system-ui, sans-serif;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--font-display);
+}
+
+/* Visible keyboard focus everywhere, in the accent. */
+:focus-visible {
+  outline: 3px solid var(--color-signal);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes parity-grow {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+.parity-grow {
+  transform-origin: left;
+  animation: parity-grow 900ms cubic-bezier(0.2, 0.7, 0.3, 1) both;
+}
