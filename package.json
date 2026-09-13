@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:cov": "vitest run --coverage",
-    "spike": "tsx scripts/spike-spread.ts"
+    "spike": "tsx scripts/spike-spread.ts",
+    "scan:custody": "tsx --env-file=.env scripts/scan-custody.ts"
   },
   "dependencies": {
     "@solana/spl-token": "^0.4.15",

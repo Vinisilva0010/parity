@@ -1,0 +1,1016 @@
+[
+  {
+    "label": "AAPLon",
+    "mint": "123mYEnRLM2LLYsJW3K6oyYh8uP1fngj732iG638ondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "AAPLx",
+    "mint": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "AMDon",
+    "mint": "14diAn5z8kjrKwSC8WLqvBqqe5YmihJhjxRxd8Z6ondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "AMDx",
+    "mint": "XsXcJ6GZ9kVnjqGsjBnktRcuwMBmvKWh8S93RefZ1rF",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "AMZN",
+    "mint": "AMZN6U5X5V7amsfEYbV4h5xW2PBLxFjwmQf7wvCDbTm8",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": null,
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": null,
+      "isToken2022": true
+    },
+    "level": "self_custody",
+    "findings": []
+  },
+  {
+    "label": "AMZNon",
+    "mint": "14Tqdo8V1FhzKsE3W2pFsZCzYPQxxupXRcqw9jv6ondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "AMZNx",
+    "mint": "Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "COINon",
+    "mint": "5u6KDiNJXxX4rGMfYT4BApZQC5CuDNrG6MHkwp1ondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "COINx",
+    "mint": "Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "CRCLon",
+    "mint": "6xHEyem9hmkGtVq6XGCiQUGpPsHBaoYuYdFNZa5ondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "CRCLx",
+    "mint": "XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "GOOGLon",
+    "mint": "bbahNA5vT9WJeYft8tALrH1LXWffjwqVoUbqYa1ondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "GOOGLx",
+    "mint": "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "METAon",
+    "mint": "fDxs5y12E7x7jBwCKBXGqt71uJmCWsAQ3Srkte6ondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "METAx",
+    "mint": "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "MSFT",
+    "mint": "MSFTbG48fCKLAjswgojAPCAMvYwzXdoUCFNaKN5AGbe",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": null,
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": null,
+      "isToken2022": true
+    },
+    "level": "self_custody",
+    "findings": []
+  },
+  {
+    "label": "MSFTon",
+    "mint": "FRmH6iRkMr33DLG6zVLR7EM4LojBFAuq6NtFzG6ondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "MSFTx",
+    "mint": "XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "MSTR",
+    "mint": "MSTRdWXMeZxdE8osAQy3fA4rvTY5rgummDSMEx6U7Nz",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a",
+      "permanentDelegate": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "BQ27XhAatVvhHqMCKbfDXaq1Yj7UxDpJm1gDhn8kon2N",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "BQ27XhAatVvhHqMCKbfDXaq1Yj7UxDpJm1gDhn8kon2N"
+      }
+    ]
+  },
+  {
+    "label": "MSTRon",
+    "mint": "FSz4ouiqXpHuGPcpacZfTzbMjScoj5FfzHkiyu2ondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "MSTRx",
+    "mint": "XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "NVDAon",
+    "mint": "gEGtLTPNQ7jcg25zTetkbmF7teoDLcrfTnQfmn2ondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "NVDAx",
+    "mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "QQQon",
+    "mint": "HrYNm6jTQ71LoFphjVKBTdAE4uja7WsmLG8VxB8ondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "QQQx",
+    "mint": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "SPCX",
+    "mint": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a",
+      "permanentDelegate": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "HK6jF79duLLLfCMRQFBSgo6CgQ5mF4tFMFU7CmKcXctZ",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "2cVYpagTt7ZGc3mmTXBa7fAznUtx5DUu6aCq8uVDaf4a"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "HK6jF79duLLLfCMRQFBSgo6CgQ5mF4tFMFU7CmKcXctZ"
+      }
+    ]
+  },
+  {
+    "label": "SPCXon",
+    "mint": "wzAyQTorWyoVXuJKj2x8EqKEGJpS13z6EWE9z5Aondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "SPCXx",
+    "mint": "Xs3oZwbHvqis4NYcf4YKWmEia2eC84wSiVrcYcTqpH8",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "SPYon",
+    "mint": "k18WJUULWheRkSpSquYGdNNmtuE2Vbw1hpuUi92ondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "SPYx",
+    "mint": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "TSLAon",
+    "mint": "KeGv7bsfR4MheC1CkmnAVceoApjrkvBhHYjWb67ondo",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK",
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD",
+      "isToken2022": true
+    },
+    "level": "issuer_controlled",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "51QVCuHfL1FeNjd8BDeffCKhCcAYoULnVB3yjNhShiuK"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "9foMHsSDq7nMg4WPusSz9eY7tyxyukqborA8GyU5cUxD"
+      }
+    ]
+  },
+  {
+    "label": "TSLAx",
+    "mint": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
+    "kind": "wrapper",
+    "powers": {
+      "freezeAuthority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs",
+      "permanentDelegate": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq",
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj",
+      "isToken2022": true
+    },
+    "level": "issuer_seizable",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Clawback enabled",
+        "detail": "The issuer can move these tokens out of your wallet at any time without your signature.",
+        "authority": "5aMNNLQJwAEeoemTEMkv5NVjqKwvvefRYCQ5Z67HFvEq"
+      },
+      {
+        "severity": "critical",
+        "label": "Freezable",
+        "detail": "The issuer can freeze your balance, blocking you from selling or transferring it.",
+        "authority": "JDq14BWvqCRFNu1krb12bcRpbGtJZ1FLEakMw6FdxJNs"
+      },
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "7pt9tkctJPK7PPNQJ77GKg8ZffSF6QxoMiCFYHxrtaCj"
+      }
+    ]
+  },
+  {
+    "label": "META (impostor)",
+    "mint": "METADDFL6wWMWEoKTFJwcThTbUmtarRJZjRpzUvkxhr",
+    "kind": "impostor",
+    "powers": {
+      "freezeAuthority": null,
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": null,
+      "isToken2022": false
+    },
+    "level": "self_custody",
+    "findings": [
+      {
+        "severity": "critical",
+        "label": "Legacy token program",
+        "detail": "This mint uses the legacy SPL Token program. No legitimate tokenized-equity issuer on Solana does, which is a strong sign the token is not what it claims to be."
+      }
+    ]
+  },
+  {
+    "label": "META (impostor)",
+    "mint": "METAwkXcqyXKy1AtsSgJ8JiUHwGCafnZL38n3vYmeta",
+    "kind": "impostor",
+    "powers": {
+      "freezeAuthority": null,
+      "permanentDelegate": null,
+      "transferHookProgram": null,
+      "defaultAccountStateFrozen": false,
+      "mintAuthority": "BfzJzFUeE54zv6Q2QdAZR4yx7UXuYRsfkeeirrRcxDvk",
+      "isToken2022": false
+    },
+    "level": "self_custody",
+    "findings": [
+      {
+        "severity": "info",
+        "label": "Supply can grow",
+        "detail": "The issuer can mint additional supply, which is expected for a backed token.",
+        "authority": "BfzJzFUeE54zv6Q2QdAZR4yx7UXuYRsfkeeirrRcxDvk"
+      },
+      {
+        "severity": "critical",
+        "label": "Legacy token program",
+        "detail": "This mint uses the legacy SPL Token program. No legitimate tokenized-equity issuer on Solana does, which is a strong sign the token is not what it claims to be."
+      }
+    ]
+  }
+]
