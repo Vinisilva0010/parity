@@ -5,8 +5,21 @@ import { SiteHeader } from "../../_components/SiteHeader";
 import { TickerSearch } from "../../_components/TickerSearch";
 import { WrapperRow } from "../../_components/WrapperRow";
 import { getTickerAnalysis } from "@/adapters/live";
+import { allTickers } from "@/registry/schema";
 
-export const revalidate = 30;
+/**
+ * Pages for every tracked ticker are generated ahead of time and refreshed at
+ * most every five minutes. A normal visit therefore costs no RPC or aggregator
+ * call, which keeps the site alive on free-tier quotas. dynamicParams is off so
+ * an unknown ticker 404s without ever reaching an external API, closing the
+ * obvious way to burn our quota by scanning.
+ */
+export const revalidate = 300;
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return allTickers().map((ticker) => ({ ticker }));
+}
 
 function formatCaptured(iso: string): string {
   return `${iso.slice(0, 10)} ${iso.slice(11, 16)} UTC`;
