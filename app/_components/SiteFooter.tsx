@@ -16,6 +16,7 @@ export function SiteFooter() {
         <div className="text-lg">
           <p className="font-bold mb-3">Open source</p>
           <a href={REPO} className="block hover:text-signal">Code and data on GitHub</a>
+          <a href="/evidence" className="block hover:text-signal">Our measurements</a>
           <p className="mt-3 text-ink/60 max-w-[34ch]">
             Every measurement is committed to the repository, so you can check
             our numbers yourself.

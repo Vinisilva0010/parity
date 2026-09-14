@@ -9,6 +9,7 @@ export function SiteHeader() {
       </Link>
       <nav className="flex gap-6 text-lg font-medium">
         <a href="/#how" className="hover:text-signal">How it works</a>
+        <Link href="/evidence" className="hover:text-signal">Evidence</Link>
         <a href="/#faq" className="hover:text-signal">FAQ</a>
       </nav>
     </header>
