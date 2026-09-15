@@ -1,0 +1,28 @@
+name: Reminder
+
+on:
+  schedule:
+    - cron: "0 12 19 9 *"
+    - cron: "0 12 2 10 *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const day = new Date().getUTCDate();
+            const body = day === 19
+              ? "Stocklana is submitted. Next: apply to the Solana Foundation grant. The evidence series now covers several days, which is a stronger argument than it was at submission time."
+              : "Stocklana judging closes today. Check the results page and review the evidence series before the grant application.";
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Parity reminder — ${new Date().toISOString().slice(0, 10)}`,
+              body,
+            });
