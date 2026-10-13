@@ -1,5 +1,5 @@
 # Parity
-
+update week
 **Which token is really that stock, can you get out of it, and who controls it?**
 
 Live at [parity.zanvexis.com](https://parity.zanvexis.com)
